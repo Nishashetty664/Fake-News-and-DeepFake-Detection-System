@@ -7,10 +7,15 @@ An intelligent AI-powered web application designed to detect **fake news**, **ma
 ## 🚀 Project Highlights
 
 ✅ Detects Fake News from articles, messages, and social media content
+
 ✅ Identifies Deepfake Images and Videos
+
 ✅ Uses Transformer & CNN-based AI Models
+
 ✅ Provides Confidence Scores with Predictions
+
 ✅ Interactive and User-Friendly Web Interface
+
 ✅ Supports Text, Image, and Video Inputs
 
 ---
