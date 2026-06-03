@@ -136,3 +136,12 @@ python app.py
 
 Department of CSE (IoT & Cyber Security with Blockchain Technology)
 MITE, Moodabidri
+
+## 📬 Contact
+
+For queries, collaborations, or project-related discussions:
+
+📧 Email: [nishashetty192@gmail.com](mailto:nishashetty192@gmail.com)
+💻 GitHub: https://github.com/Nishashetty664
+
+Feel free to connect and explore the project.
