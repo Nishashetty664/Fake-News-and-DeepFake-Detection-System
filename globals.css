@@ -1,0 +1,187 @@
+/* globals.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0f0f0f; /* dark cyber background */
+  color: #f9fafb;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Cyber neurons/circuit grid background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(#2563eb 1px, transparent 1px),
+                    radial-gradient(#22c55e 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  z-index: -1;
+  animation: move-bg 20s linear infinite;
+  opacity: 0.15;
+}
+
+@keyframes move-bg {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(-100px,-100px); }
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #2563eb;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e40af;
+}
+
+button[type="button"] {
+  background-color: #ef4444;
+}
+
+button[type="button"]:hover {
+  background-color: #b91c1c;
+}
+
+/* Textarea / Input */
+textarea, input[type="file"], select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #444;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Result cards */
+.result-card {
+  background-color: #111;
+  border: 1px solid #2563eb;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 15px #2563eb44;
+  transition: transform 0.3s ease;
+}
+
+.result-card:hover {
+  transform: scale(1.02);
+}
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #111827, #1f2937, #111827);
+  color: #f9fafb;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(30, 30, 30, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Form styles */
+form {
+  background-color: rgba(40, 40, 40, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* Result card */
+.result-card {
+  background-color: rgba(30, 30, 30, 0.85);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.result-card h3 {
+  margin-top: 0;
+}
+
+.result-label {
+  font-weight: 700;
+}
+
+.result-confidence {
+  color: #22c55e;
+  font-weight: 600;
+}
