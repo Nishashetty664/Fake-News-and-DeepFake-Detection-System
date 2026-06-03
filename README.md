@@ -1,16 +1,133 @@
-# React + Vite
+# 🛡️ AI-Driven Fake News & Deepfake Detection System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent AI-powered web application designed to detect **fake news**, **manipulated images**, and **deepfake videos** using advanced **Natural Language Processing (NLP)** and **Deep Learning** techniques.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Highlights
 
-## React Compiler
+✅ Detects Fake News from articles, messages, and social media content
+✅ Identifies Deepfake Images and Videos
+✅ Uses Transformer & CNN-based AI Models
+✅ Provides Confidence Scores with Predictions
+✅ Interactive and User-Friendly Web Interface
+✅ Supports Text, Image, and Video Inputs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 AI Models Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Fake News Detection
+
+* DistilRoBERTa
+* NLP & Transformer-based Classification
+
+### 🔹 Deepfake Image Detection
+
+* EfficientNet-B0
+* CNN-based Image Analysis
+
+### 🔹 Deepfake Video Detection
+
+* ResNet-50 + R3D-18
+* Spatio-Temporal Deep Learning
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+### Backend
+
+* FastAPI
+* Python
+
+### AI / Deep Learning
+
+* PyTorch
+* Hugging Face Transformers
+* OpenCV
+* TorchVision
+
+---
+
+## 📂 Features
+
+🔍 Fake News Verification
+🖼️ Deepfake Image Analysis
+🎥 Deepfake Video Detection
+📊 Confidence Score Generation
+🌐 Web-Based AI Detection Platform
+
+---
+
+## 📊 Dataset Sources
+
+* Kaggle Fake News Datasets
+* Celeb-DF
+* FaceForensics++
+* Deepfake Detection Challenge (DFDC)
+* AI Generated Faces Dataset
+
+---
+
+## ⚙️ Installation
+
+```bash id="w8v2rk"
+git clone https://github.com/Nishashetty664/Fake-News-and-DeepFake-Detection-System.git
+```
+
+```bash id="f3m9yc"
+cd Fake-News-and-DeepFake-Detection-System
+```
+
+```bash id="q6x1nh"
+pip install -r requirements.txt
+```
+
+```bash id="n5u7ze"
+python app.py
+```
+
+---
+
+## 🎯 Objectives
+
+* Combat misinformation using AI
+* Detect manipulated media content
+* Provide real-time verification support
+* Improve digital media authenticity
+
+---
+
+## 🌟 Future Enhancements
+
+* Multi-language support
+* Real-time social media integration
+* Cloud deployment
+* Mobile application support
+
+---
+
+## 👩‍💻 Developed By
+
+* Joshal
+* Dhaksha
+* Manisha
+* Nisha
+
+---
+
+##  Snapshots
+<img width="909" height="449" alt="image" src="https://github.com/user-attachments/assets/9cb91c30-3a7c-4e24-9a87-87e577122950" />
+
+
+## 📌 Academic Major Project
+
+Department of CSE (IoT & Cyber Security with Blockchain Technology)
+MITE, Moodabidri
